@@ -1,3 +1,4 @@
+---
 title: "Alien Escape"
 categories:
   - Game
@@ -16,6 +17,6 @@ tags:
 - Sound design - designed all the sound effects in the game.
 
 # Details
-This is a twin stick bullet hell game; you are a alien ship that crash landed on this planet but got captured by the governing authorities and researched your technology to develop their own military strength.
+This is a twin stick bullet hell game. You are a alien ship that crash landed on this planet but got captured by the governing authorities and researched your technology to develop their own military strength.
 This was my attempt at a bullet hell game jam but failed to complete on time. Think of it as a prototype as im working on a fully fleshed out game.
 
