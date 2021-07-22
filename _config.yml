@@ -13,16 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: KayOfWays Portfolio
+email: kayofways@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Graduate Computer Scientist with a love for making games and mods.
+  Interested in working in the games industry.
+twitter_username: KayOfWays
+github_username: kayway
+minimal_mistakes_skin: "dark"
 search: true
+
+domain: kayway.github.io      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://kayway.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: //      # place folder name if the site is served in a subfolder   
+repository: "kayway/kayway.github.io"
 
 # Build settings
 markdown: kramdown
@@ -31,7 +35,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: GMT
 
 include:
   - _pages
@@ -58,34 +62,40 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Kieran Ryan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Graduate Computer Scientist with a love for making games and mods. Interested in working in the games industry."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+   # - label: "Website"
+   #   icon: "fas fa-fw fa-link"
+   #   url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/KayOfWays"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/kayway"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://kayofways.itch.io"
+   # - label: "Instagram"
+   #   icon: "fab fa-fw fa-instagram"
+   #   url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/KayOfWays"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/kayway"
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://kayofways.itch.io"
+   # - label: "Instagram"
+   #   icon: "fab fa-fw fa-instagram"
+   #   url: "https://instagram.com/"
 
 defaults:
   # _posts
