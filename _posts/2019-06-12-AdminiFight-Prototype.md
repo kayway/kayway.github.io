@@ -8,7 +8,6 @@ tags:
   - Blender
 ---
 <iframe frameborder="0" src="https://itch.io/embed/1133264" width="552" height="167"><a href="https://kayofways.itch.io/adminifight-prototype">AdminiFight-Prototype by KayOfWays</a></iframe>
-
 # Skills Used
 - Gameplay Programming: Coded the controls, abilities and objectives.
 - AI Programming: Coded AI for the melee and ranged enemies.
