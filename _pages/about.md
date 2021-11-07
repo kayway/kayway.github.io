@@ -33,7 +33,7 @@ toc_label: "Contents"
 - UML
 - Java
 
-## Soft SKills
+## Soft Skills
 - Eager
 - Agile/Scrum
 - Organized
