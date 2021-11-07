@@ -3,13 +3,14 @@ permalink: /about/
 title: "About Me"
 toc: true
 toc_label: "Contents"
+classes: wide
 ---
 **My goal is to break into the game industry as a Gameplay Programmer. For my CV please contact me).**
 
 # Skills
 - Gameplay Programming: Able to code mechanics and can determine what adds or breaks the immersion for the player
 - Physics Programming: Able to implement mechanics in a 3d space simulating physics and calculate math problems in the relative fields
-- AI Programming: ble to implement behavioural patterns and pathfinding, whilst understanding the hurdles like making the AI “human-like”
+- AI Programming: Able to implement behavioural patterns and pathfinding, whilst understanding the hurdles like making the AI “human-like”
 ## Technologies
 - Unreal Engine
 - Blender
