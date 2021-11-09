@@ -6,15 +6,11 @@ header:
 title: "AdminiFight Prototype"
 classes: wide
 sidebar:
-  - title: "Genre: Fighting  Platform: Windows"
+  - title: "Genre"
+    text: "3D, Action, Fighting, Platforming"
     image: "/assets/images/Adminifight-Prototype.jpg"
-  - title: "Features"
-    features:
-      - Enemy AI
-      - Splitscreen multiplayer
-      - Melee Combat
-      - Teleportation and Shield Abilities
-    
+  - title: "Platform"
+    text: "Windows x64"
 categories:
   - Game
 tags:
