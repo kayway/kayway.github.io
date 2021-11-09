@@ -45,7 +45,9 @@ Also unreal has a nifty feature on its character classes called RVO avoidance wh
 # Animation In Unreal
 Animation was a very interesting obstacle as it contained many new topics of research for me such as anim notifies, state machines and animation blends in blueprint. 
 Scripted a base montage class in c++ so i could use multiple child montages and utilized the same functionality to save time.
-'void UMyAnimInstance::TargetAttack(int attackType)
+
+```C++
+void UMyAnimInstance::TargetAttack(int attackType)
 {
 	GLog->Log("//TODO attack moves");
 	if (TargetAttackMontage)
@@ -86,7 +88,9 @@ Scripted a base montage class in c++ so i could use multiple child montages and 
 				Montage_JumpToSection(FName("ThirdAttackK"), TargetAttackMontage);
 		}
 	}
-}'
+}
+```
+
 This snippet plays the animation in different sections depending on the its current active section and its action(punch or kick).
 Implementation of a state machine and performing blends and montages where all very new to me but definitely gave me some insight on the hurdles an animator in the 3d space is presented.
 Speaking of animation actually animating the character was way more difficult than i first fought implementing not only key frames but different types of curves to control the flow of the animation.
