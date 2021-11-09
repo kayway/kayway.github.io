@@ -1,5 +1,6 @@
 ---
 title: "AbbeyRoadCenter Website Redesign"
+classes: wide
 last_modified_at: 2021-07-22T21:20:02-05:00
 categories:
   - University
