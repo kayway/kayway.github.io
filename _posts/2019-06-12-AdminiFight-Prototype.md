@@ -7,8 +7,8 @@ title: "AdminiFight Prototype"
 classes: wide
 sidebar:
   - title: "Genre"
-    text: "3D, Action, Fighting, Platforming"
     image: "/assets/images/Adminifight-Prototype.jpg"
+    text: "3D, Action, Fighting, Platforming"
   - title: "Platform"
     text: "Windows x64"
 categories:
