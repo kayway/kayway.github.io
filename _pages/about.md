@@ -3,7 +3,7 @@ permalink: /about/
 title: "About Me"
 toc: true
 toc_label: "Contents"
-toc_sticky: false
+toc_sticky: true
 ---
 **My goal is to break into the game industry as a Gameplay Programmer. For my CV please contact me).**
 
