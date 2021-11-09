@@ -9,7 +9,10 @@ sidebar:
   - title: "<b>Genre:</b> Fighting  <b>Platform:</b> Windows"
     image: "/assets/images/Adminifight-Prototype.jpg"
   - title: "Features"
-    text: ""
+    text: "- Enemy AI"
+    text: "- Splitscreen multiplayer"
+    text: "- Melee Combat"
+    text: "- Teleportation and Shield Abilities"
     
 categories:
   - Game
