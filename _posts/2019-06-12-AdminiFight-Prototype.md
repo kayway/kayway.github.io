@@ -9,11 +9,11 @@ sidebar:
   - title: "Genre: Fighting  Platform: Windows"
     image: "/assets/images/Adminifight-Prototype.jpg"
   - title: "Features"
-  - features:
-    - Enemy AI
-    - Splitscreen multiplayer
-    - Melee Combat
-    - Teleportation and Shield Abilities
+    features:
+      - Enemy AI
+      - Splitscreen multiplayer
+      - Melee Combat
+      - Teleportation and Shield Abilities
     
 categories:
   - Game
