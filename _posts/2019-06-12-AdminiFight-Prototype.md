@@ -9,11 +9,7 @@ sidebar:
   - title: "<b>Genre:</b> Fighting  <b>Platform:</b> Windows"
     image: "/assets/images/Adminifight-Prototype.jpg"
   - title: "Features"
-    text: "- Enemy AI: Melee and ranged ai to defeat in order to beat the game.
-- Splitscreen multiplayer: Can work together with up to 4 players.
-- Melee Combat: Pummel your enemies with your brutal combos.
-- Platforming: some obstacles you must use your abilities in creative ways in order to get all the pumpkins.
-- Special Abilities: Teleportation and shoot bursts of power to handle multiple enemies."
+    text: ""
     
 categories:
   - Game
