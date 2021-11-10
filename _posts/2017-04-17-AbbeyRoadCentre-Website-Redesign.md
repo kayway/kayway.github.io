@@ -12,9 +12,9 @@ tags:
 **Note:** The website has changed since this was done unfortunately, please use the images as reference.
 {: .notice}
 
-**[AbbeyRoadCentre Website]** (http://www.abbeyroadcentre.co.uk) 
+[AbbeyRoadCentre Website](http://www.abbeyroadcentre.co.uk) 
 
-**[Meeting Documents]** (https://drive.google.com/open?id=1Ex-PebdZWS-_QVgc5vV5vdvGjQ978MZW)
+[Meeting Documents](https://drive.google.com/open?id=1Ex-PebdZWS-_QVgc5vV5vdvGjQ978MZW)
 
 # Skills Used
 - Teamwork: Used the scrum method where we had regular meetings to discuss client feedback and assign roles.
