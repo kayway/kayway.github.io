@@ -15,7 +15,6 @@ categories:
 tags:
   - Unreal Engine
   - C++
-  - Blender
 ---
 <iframe frameborder="0" src="https://itch.io/embed/1109423?bg_color=479b38&amp;fg_color=8c1090&amp;link_color=5bfaf7&amp;border_color=333333" width="552" height="167"><a href="https://kayofways.itch.io/alien-escape">Alien Escape by KayOfWays</a></iframe>
 
