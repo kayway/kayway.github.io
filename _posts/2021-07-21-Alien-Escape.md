@@ -27,12 +27,13 @@ This was my attempt at a bullet hell game jam so think of it as a prototype as i
 - Enemy AI will hunt you down and attack from a safe distance, take out the gateways to stop them spawning 
 - Towers absorb all fire turning the energy to rapid fire lasers or even a mega laser bomb
 - Watch your health and energy as they can go down quick, always keep it up by going over the coloured pads
+
 # AI
-[Behavior Tree](/assets/images/AlienEscape-BT.png)
+![Behavior Tree](/assets/images/AlienEscape-BT.png)
 This was my first experience with EQS(Environmental Query System) which is a very useful system which allows the ai to determine the best path using an array of nodes against conditions.
 I designed this system to keep the AI a safe distance while keeping the player in its sight.
 I had to limit the distance a bit to allow the player to destroy them easier. 
-[EQS Diagram](/assets/images/AlienEscape-EQS.png)
+![EQS Diagram](/assets/images/AlienEscape-EQS.png)
 There was no need for a perception system for the AI as i wanted the units to always know where the player was.
 However I did perform a frequent line trace to ensure the AI had the player in sight before it fires(see TargetLOS in the behavior tree image above).
 Below is the Function to determine line of site.
