@@ -6,25 +6,19 @@ categories:
 tags:
   - Blender
 galleryBody:
-    image_path: /assets/RoboBear/FullBody-Front.png
+  - image_path: /assets/images/RoboBear/FullBody-Front.png
     alt: "front body image"
-    title: "Front-Body"
-    image_path: /assets/RoboBear/FullBody-Side.png
+  - image_path: /assets/images/RoboBear/FullBody-Side.png
     alt: side body image
-    title: "Side-Body"
-    image_path: /assets/RoboBear/FullBody-Back.png
+  - image_path: /assets/images/RoboBear/FullBody-Back.png
     alt: "back body image"
-    title: "Back-Body"
 galleryHead:
-  - image_path: /assets/RoboBear/Head-Front.png
+  - image_path: /assets/images/RoboBear/Head-Front.png
     alt: "front head image"
-    title: "Front-Head"
-  - image_path: /assets/RoboBear/Head-Side.png
+  - image_path: /assets/images/RoboBear/Head-Side.png
     alt: "side head image"
-    title: "Side-Head"
-  - image_path: /assets/RoboBear/Head-Back.png
+  - image_path: /assets/images/RoboBear/Head-Back.png
     alt: "back head image"
-    title: "Back-Head"
 ---
 
 # Overview
