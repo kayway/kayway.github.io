@@ -5,6 +5,7 @@ header:
     id: TuFyN7rfjqM
     provider: youtube
 classes: wide
+author_profile: false
 sidebar:
   - title: "Genre"
     image: "/assets/images/Adminifight-Prototype.jpg"
