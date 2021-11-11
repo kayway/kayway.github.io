@@ -33,7 +33,7 @@ This was my attempt at a bullet hell game jam so think of it as a prototype as i
 This was my first experience with EQS(Environmental Query System) which is a very useful system which allows the ai to determine the best path using an array of nodes against conditions.
 I designed this system to keep the AI a safe distance while keeping the player in its sight.
 I had to limit the distance a bit to allow the player to destroy them easier. 
-![EQS Diagram](/assets/images/AlienEscape-EQS.png)
+![EQS Diagram](/assets/images/AlienEscape-EQS.png){.align-left}
 There was no need for a perception system for the AI as i wanted the units to always know where the player was.
 However I did perform a frequent line trace to ensure the AI had the player in sight before it fires(see TargetLOS in the behavior tree image above).
 Below is the Function to determine line of site.
