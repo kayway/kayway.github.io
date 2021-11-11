@@ -33,6 +33,11 @@ Many systems were implemented here for prototyping purposes; these features are:
 - Health and stamina pickups
 - Block and Combat System
 
+It was particularly interesting to to implement a teleport mechanic, as i wanted to display a projection mesh to display where the character will teleport to.
+Also making sure it detected collisions properly making you teleport short if teleporting to a wall or teleporting at a hill.
+A simple line trace did the job to detect obstacles and just used the hit point as the new location to teleport
+![Teleport Function](/assets/images/Adminifight-Teleport.png)
+
 # AI
 ![Behavior Tree](/assets/images/Adminifight-Behaviortree.png)
 There are two types of AI implemented here:
