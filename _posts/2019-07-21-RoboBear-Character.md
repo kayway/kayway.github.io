@@ -5,7 +5,7 @@ categories:
   - Assets
 tags:
   - Blender
-gallery-body:
+galleryBody:
   - url: /assets/RoboBear/FullBody-Front.png
     image_path: /assets/RoboBear/FullBody-Front.png
     alt: "front body image"
@@ -18,7 +18,7 @@ gallery-body:
     image_path: /assets/RoboBear/FullBody-Back.png
     alt: "back body image"
     title: "Back-Body"
-gallery-head:
+galleryHead:
   - url: /assets/RoboBear/Head-Front.png
     image_path: /assets/RoboBear/Head-Front.png
     alt: "front head image"
@@ -43,7 +43,7 @@ It felt easy to learn hard to master as there was many types of brushes that wer
 
 ## Body
 
-{% include gallery-body caption="Full body sculpture in blender." %}
+{% include galleryBody caption="Full body sculpture in blender." %}
 
 Just started with a large ball and worked from there for the body.
 This wasn't the best idea of a framework but luckily I managed and even made the limbs from the ball as well except for the hands, feet and head.
@@ -60,7 +60,7 @@ The rest of the foot was just sculpted and did take a lengthy time to get it rig
 
 ## Head
 
-{% include gallery-head caption="Head sculpture in blender." %}
+{% include galleryHead caption="Head sculpture in blender." %}
 
 This was very difficult for me and had to research many different kind of heads from bears to humans and even robots.
 The eye was easy just used a simple UV sphere and used a boolean join to the head.
