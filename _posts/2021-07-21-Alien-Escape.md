@@ -2,7 +2,9 @@
 title: "Alien Escape"
 classes: wide
 header:
-  image: /assets/images/AlienEscape-Scene.jpg
+  video:
+    id: cL_p2HpXDeo
+    provider: youtube
 author_profile: false
 sidebar:
   - title: "Genre"
