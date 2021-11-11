@@ -6,29 +6,23 @@ categories:
 tags:
   - Blender
 galleryBody:
-  - url: /assets/RoboBear/FullBody-Front.png
     image_path: /assets/RoboBear/FullBody-Front.png
     alt: "front body image"
     title: "Front-Body"
-  - url: /assets/RoboBear/FullBody-Side.png
     image_path: /assets/RoboBear/FullBody-Side.png
     alt: side body image
     title: "Side-Body"
-  - url: /assets/RoboBear/FullBody-Back.png
     image_path: /assets/RoboBear/FullBody-Back.png
     alt: "back body image"
     title: "Back-Body"
 galleryHead:
-  - url: /assets/RoboBear/Head-Front.png
-    image_path: /assets/RoboBear/Head-Front.png
+  - image_path: /assets/RoboBear/Head-Front.png
     alt: "front head image"
     title: "Front-Head"
-  - url: /assets/RoboBear/Head-Side.png
-    image_path: /assets/RoboBear/Head-Side.png
+  - image_path: /assets/RoboBear/Head-Side.png
     alt: "side head image"
     title: "Side-Head"
-  - url: /assets/RoboBear/Head-Back.png
-    image_path: /assets/RoboBear/Head-Back.png
+  - image_path: /assets/RoboBear/Head-Back.png
     alt: "back head image"
     title: "Back-Head"
 ---
@@ -68,7 +62,7 @@ However the other eye I feel could of still used some work as I think maybe its 
 The jaw and teeth I feel were done really well.
 
 # Retopology and Texture Painting
-[Retopology](/assets/images/RoboBear/Final-Retopology.png)
+![Retopology](/assets/images/RoboBear/Final-Retopology.png)
 I felt the retopology was done really well in the end however this was the most difficult to do as I was trying to get good edge flow and trying to keep the number of polys as low as I can.
 This took a few tries before I finally managed it and ended up with some good edge flows except some go a bit crazy.
 For texture painting I just used some simple colours and nothing really advanced.
