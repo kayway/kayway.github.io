@@ -30,7 +30,7 @@ This was a character I made for "AdminiFight" game I was developing. It is fully
 
 {% include gallery id="galleryShoafy" caption="Sheep Character." %}
 # Rigging and animation
-![Character combat animation.](/assets/images/Dafodil/Dafodil-Combat.gif)
+![Character combat animation.](/assets/images/Dafodil/Dafodil-Combat.gif){: .align-center}
 For the rigging I used Rigify a very handy blender addon which provides an extensive skeleton with inverse kinematic bones already implemented.
 Animations was done in blender and imported to unreal, then used some blend spaces and state machine to create a functioning character.
 ![Sheep idle to run animation.](/assets/images/Dafodil/Shoafy-IdleRun.gif){: .align-center}
