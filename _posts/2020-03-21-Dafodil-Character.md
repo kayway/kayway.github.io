@@ -33,7 +33,7 @@ This was a character I made for "AdminiFight" game I was developing. It is fully
 ![Character combat animation.](/assets/images/Dafodil/Dafodil-Combat.gif)
 For the rigging I used Rigify a very handy blender addon which provides an extensive skeleton with inverse kinematic bones already implemented.
 Animations was done in blender and imported to unreal, then used some blend spaces and state machine to create a functioning character.
-![Sheep idle to run animation.](/assets/images/Dafodil/Shoafy-IdleRun.gif){: .align-centre}
+![Sheep idle to run animation.](/assets/images/Dafodil/Shoafy-IdleRun.gif){: .align-center}
 Doing an animal definitely changed my thought process, especially the way an animal walks and run.
 # Unreal Compatibility
 For Compatibility with unreal and to keep the skeleton functional in unreal, io had to use Uefy a very handy addon which can take complex rigs and formats them to unreal engine skeletal spec, making it compatible with epic skeletons and removes unnecessary bones when imported into unreal.
