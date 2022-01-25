@@ -1,5 +1,5 @@
 ---
-title: "BurnoutFX Mod for GTA5(FiveM)"
+title: "BurnoutFX Mod for GTA5(FiveM)"#
 categories:
   - Mods
 tags:
@@ -137,10 +137,10 @@ private void ParseMarkerData(string trackMarkerData, string gameMarkerData)
 ```
 
 ## Determining Whether a Car is Drifting
-**StuntCounter.cs**
 This was a bit more fun to code as it involves looking at some math.
 We need to take the velocity, sine and cosine of the car and multiply them with the respective velocity.
 This gives us the angle of the car with the given direction but we should also include a division by magnitude.
+**StuntCounter.cs**
 ```c#
 private bool isDrifting()
 {  
