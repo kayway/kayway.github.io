@@ -1,5 +1,9 @@
 ---
-title: "BurnoutFX Mod for GTA5(FiveM)"#
+title: "BurnoutFX Mod for GTA5(FiveM)"
+header:
+  video:
+    id: q_70TkdGUa4
+    provider: youtube
 categories:
   - Mods
 tags:
