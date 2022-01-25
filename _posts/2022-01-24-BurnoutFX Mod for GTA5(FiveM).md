@@ -407,5 +407,5 @@ public async void JoinGame([FromSource] Player player, string markerName)
 ```
 
 # Final Thoughts
-FiveM is a great way to get your hands wet with all sorts of programming languages and coding Gameplay mechanics without the need for developing other assets.
+FiveM is a great way to get your hands dirty with all sorts of programming languages and coding Gameplay mechanics without the need for developing other assets.
 This mod is still in early development and theres many more features I wish to implement, but even so I've learnt so much already.
