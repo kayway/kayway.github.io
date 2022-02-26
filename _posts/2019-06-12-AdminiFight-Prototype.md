@@ -2,7 +2,7 @@
 title: "AdminiFight Prototype"
 header:
   video:
-    id: TuFyN7rfjqM
+    id: twf6K0OYxV4
     provider: youtube
 classes: wide
 author_profile: false
