@@ -23,10 +23,10 @@ galleryShoafy:
 ---
 
 # Overview
+This was a character I made for "AdminiFight" game I was developing. It is fully rigged and ready to be used in unreal. I also did a sheep model which is also rigged and animated
 
 {% include gallery id="galleryDafodil" caption="Dafodil Character." %}
 
-This was a character I made for "AdminiFight" game I was developing. It is fully rigged and ready to be used in unreal. I also did a sheep model which is also rigged and animated
 
 {% include gallery id="galleryShoafy" caption="Sheep Character." %}
 # Rigging and animation
