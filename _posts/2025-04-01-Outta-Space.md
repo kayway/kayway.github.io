@@ -8,7 +8,7 @@ header:
 author_profile: false
 sidebar:
   - title: "Genre"
-    image: "/assets/images/AlienEscape-IntroScene.png"
+    image: "/assets/images/outta-space-banner.png"
     text: "3D, Arcade, Survival, Space, Fast-Paced"
   - title: "Platform"
     text: "Windows x64"
