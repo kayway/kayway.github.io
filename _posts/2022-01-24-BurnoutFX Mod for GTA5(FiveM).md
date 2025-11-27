@@ -14,8 +14,6 @@ toc: true
 toc_label: "Contents"
 toc_sticky: true
 ---
-**Note:** Project Currently Ongoing
-{: .notice}
 
 [Project Code](https://github.com/kayway/BurnoutFX)
 
