@@ -34,20 +34,23 @@ I was responsible for all the asset implementation(Sound, 3D Assets, UI, etc.) a
 - Implemented Settings with save functionality.
 - Perforce Server setup and maintenence.
 
-# Technical Breakdown
-## Gameplay Systems
+# Gameplay Systems
 I created a lightweight custom Pawn controller in C++ to focus on responsiveness and clean separation between input, movement logic, and animation triggers. 
 The signature mechanic is a dynamically expanding black hole volume that increases tension as the player progresses, implemented through scalable collision logic and timed growth.
-## UI/UX
+
+# UI/UX
 The UI was built entirely using UMG, including the HUD for tracking health, objective progress, and black hole proximity. 
 I also implemented pause and game-over flows, along with a simple dialogue system triggered by gameplay events. 
 The Options Menu uses a persistent save slot so player settings carry over across sessions.
-## Audio Integration
+
+# Audio Integration
 Although I didn’t create the assets, I handled all audio implementation, wiring sound effects and music into gameplay and UI events. 
 This helped reinforce feedback and improve the moment-to-moment clarity.
-## Development Infastructure
+
+# Development Infastructure
 To support collaboration, I set up and maintained a Perforce server for the project, including depot structure, user permissions, and workspace mappings. This allowed the team to iterate smoothly even under the 1-week time limit.
-## Development Decisions
+
+# Development Decisions
 Given the tight timeline, I made the choice to implement UI behaviour and input handling in C++ for faster iteration and predictable logic flow. 
 This allowed me to focus on building a stable, functional core rather than polishing visuals.
 
