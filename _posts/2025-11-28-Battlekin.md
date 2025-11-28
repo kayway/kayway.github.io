@@ -1,13 +1,15 @@
 ---
 title: "Battlekin"
+header:
+  teaser: /assets/images/Battlekin.jpg
 classes: wide
 author_profile: false
 sidebar:
-  - title: "Genre"
-    image: "/assets/images/Battlekin.jpg"
-    text: "Mobile, Battle"
+  - title: Genre
+    image: /assets/images/Battlekin.jpg
+    text: Mobile, Battle
   - title: "Platform"
-    text: "Mobile, Horizon Worlds"
+    text: Mobile, Horizon Worlds
 categories:
   - Work Projects
 tags:
