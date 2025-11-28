@@ -7,6 +7,7 @@ header:
   video:
     id: Xvd5QVXfSCk
     provider: youtube
+author_profile: true
 ---
 
 # Overview
