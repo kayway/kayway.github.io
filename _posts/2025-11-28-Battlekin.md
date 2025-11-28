@@ -9,8 +9,7 @@ sidebar:
   - title: "Platform"
     text: "Mobile, Horizon Worlds"
 categories:
-  - Game
-  - Work
+  - Work Projects
 tags:
   - Horizon Worlds
   - Typescript

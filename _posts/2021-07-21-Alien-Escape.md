@@ -13,7 +13,7 @@ sidebar:
   - title: "Platform"
     text: "Windows x64"
 categories:
-  - Game
+  - Personal Projects
 tags:
   - Unreal Engine
   - C++

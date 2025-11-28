@@ -13,8 +13,7 @@ sidebar:
   - title: "Platform"
     text: "Meta Quest 3"
 categories:
-  - Game
-  - Work
+  - Work Projects
 tags:
   - Unity
   - C#

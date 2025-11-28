@@ -13,8 +13,7 @@ sidebar:
   - title: "Platform"
     text: "Steam PC"
 categories:
-  - Game
-  - Work
+  - Work Projects
 tags:
   - In-house engine
   - C++

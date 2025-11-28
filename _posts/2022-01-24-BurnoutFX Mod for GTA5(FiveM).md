@@ -5,7 +5,7 @@ header:
     id: BKmV5vx5tAE
     provider: youtube
 categories:
-  - Mods
+  - Personal Projects
 tags:
   - SQL
   - C#
