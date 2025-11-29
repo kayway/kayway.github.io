@@ -2,6 +2,9 @@
 permalink: /contact/
 title: "Contact Me"
 ---
+
+Feel free to contact me for offers or even if you jhust want some guidance I'm happy to help!
+
 <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzbyawjj" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>

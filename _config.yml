@@ -68,6 +68,9 @@ author:
     - label: "Itch.io"
       icon: "fab fa-fw fa-itch-io"
       url: "https://kayofways.itch.io"
+    - label: "Download My CV"
+      icon: "fab fa-fw fa-download"
+      src: "/assets/Documents/Kieran Ryan CV.pdf"
 
 footer:
   links:
