@@ -14,7 +14,6 @@ categories:
 tags:
   - Unity
   - C#
-  - AI
   - Prototyping
 ---
 

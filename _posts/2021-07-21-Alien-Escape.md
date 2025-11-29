@@ -18,6 +18,7 @@ categories:
 tags:
   - Unreal Engine
   - C++
+  - Blueprints
 ---
 
 This was my attempt at a bullet hell game jam where you need to destroy the power generators while there are enemy tanks trying to destroy you.

@@ -19,6 +19,7 @@ tags:
   - Unity
   - C#
   - VR
+  - Visual Scripting
 ---
 
 Action VR game where I most of my responsibilities were the cinematics and VR interactions in cinematics.
