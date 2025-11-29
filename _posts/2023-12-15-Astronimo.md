@@ -2,25 +2,24 @@
 title: "Astronimo"
 classes: wide
 header:
+  teaser: /assets/images/BATMAN-ARKHAM-SHADOW-POSTER.jpg
   video:
     id: J5CabWSzuOc
     provider: youtube
 author_profile: false
 sidebar:
   - title: "Genre"
-    image: "/assets/images/Astronimo.jpg"
-    text: "Puzzle, Adventure"
-  - title: "Platform"
-    text: "Steam PC"
+    image: /assets/images/Astronimo.jpg
+    text: Puzzle, Adventure
+  - title: Platform
+    text: Steam PC
 categories:
   - Work Projects
 tags:
   - In-house engine
   - C++
 ---
-
-# Overview
-## Role - Gameplay Programmer (Coatsink)
+Role - Gameplay Programmer (Coatsink)
 
 # Key Contributions
 - Integrated Steam Achievements using the Steamworks API, including event triggering and achievement unlocking logic.

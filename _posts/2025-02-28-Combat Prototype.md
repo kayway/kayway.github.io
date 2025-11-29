@@ -1,13 +1,14 @@
 ---
-title: "Combat prototype"
+title: Combat prototype
 classes: wide
 header:
+  teaser: /assets/images/Combat Prototype.jpg
   video:
     id: nPmw2owXKeM
     provider: youtube
 author_profile: false
 sidebar:
-    image: "/assets/images/Combat Prototype.png"
+    image: /assets/images/Combat Prototype.png
 categories:
   - Freelance Projects
 tags:
@@ -28,8 +29,8 @@ The client provided 3D animations and assets; I implemented all underlying syste
 - Created enemy AI with patrol, detect, chase, and attack behaviours.
 - Added a health and damage system for both player and enemies.
 
-# Additional Features
-Later in the project, I added:
+# Additional Notes
+The client had changed his mind on some features so later in the project I had to modify/add the following features:
 - A point-and-click movement system with a UI trail indicating traversable paths.
 - Attack/Use Item UI during path selection.
 - Enemy AI updates enabling enemies to spot and attack the player during traversal.

@@ -1,30 +1,29 @@
 ---
-title: "AdminiFight Prototype"
+title: AdminiFight Prototype
 header:
+  teaser: /assets/images/Adminifight-Prototype.jpg
   video:
     id: twf6K0OYxV4
     provider: youtube
 classes: wide
 author_profile: false
 sidebar:
-  - title: "Genre"
-    image: "/assets/images/Adminifight-Prototype.jpg"
-    text: "3D, Action, Fighting, Platforming"
-  - title: "Platform"
-    text: "Windows x64"
+  - title: Genre
+    image: /assets/images/Adminifight-Prototype.jpg
+    text: 3D, Action, Fighting, Platforming
+  - title: Platform
+    text: Windows x64
 categories:
   - Personal Projects
 tags:
   - Unreal Engine
   - C++
 ---
+A 3D Action Combat game where you have to defeat all the enemies or collect all the pumpkins in the level. 
+
 <iframe frameborder="0" src="https://itch.io/embed/1133264?bg_color=8e9cd2" width="552" height="167"><a href="https://kayofways.itch.io/adminifight-prototype">AdminiFight-Prototype by KayOfWays</a></iframe>
 
-# Overview
 [Source Code](https://github.com/kayway/AdminiFightPrototype)
-
-A 3D Action Combat game where you have to defeat all the enemies or collect all the pumpkins in the level. 
-This was a prototype for the full release which has been shelved for now after realising the amount of 3D work it would require.
 
 # Gameplay
 

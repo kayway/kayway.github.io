@@ -1,13 +1,14 @@
 ---
-title: "Clown Climber Prototype"
+title: Clown Climber Prototype
 classes: wide
 header:
+  teaser: /assets/images/Clown Climber Prototype.jpg
   video:
     id: tXo_3X8LavQ
     provider: youtube
 author_profile: false
 sidebar:
-    image: "/assets/images/Clown Climber Prototype.png"
+    image: /assets/images/Clown Climber Prototype.png
 categories:
   - Freelance Projects
 tags:
@@ -17,7 +18,6 @@ tags:
   - Prototyping
 ---
 
-# Overview
 A quirky stealth-climbing prototype involving climbing systems, enemy AI, and comedic abilities like pies, banana peels, and whoopie cushions.
 
 # Key Contributions
@@ -28,6 +28,6 @@ A quirky stealth-climbing prototype involving climbing systems, enemy AI, and co
   - Exploding whoopie cushion as an area-based distraction
 - Integrated abilities into the client’s existing climbing and animation systems.
 
-# Additional Features
+# Additional Notes
 The client initially wanted two climbing frameworks merged. 
 After testing, I found they were incompatible, so I advised using one—saving development time and improving stability.

@@ -1,6 +1,7 @@
 ---
 title: "BurnoutFX Mod for GTA5(FiveM)"
 header:
+  teaser: /assets/images/FiveM.png
   video:
     id: BKmV5vx5tAE
     provider: youtube
@@ -14,12 +15,10 @@ toc: true
 toc_label: "Contents"
 toc_sticky: true
 ---
-
-[Project Code](https://github.com/kayway/BurnoutFX)
-
-# Overview
 This mod intends to merge the Gameplay of GTA5 with mechanics and systems from other popular racing games like Burnout Paradise.
 This mod interacts with a SQL server and records player statistics and race track data. 
+
+[Project Code](https://github.com/kayway/BurnoutFX)
 
 # Features
 - Stunt Points system - get points by drifting, air time and slipstreaming other vehicles.

@@ -2,30 +2,31 @@
 title: "Outta Space"
 classes: wide
 header:
+  teaser: /assets/images/outta-space-banner.jpg
   video:
     id: Nor2QOBQa-Y
     provider: youtube
 author_profile: false
 sidebar:
   - title: "Genre"
-    image: "/assets/images/outta-space-banner.png"
-    text: "3D, Arcade, Survival, Space, Fast-Paced"
-  - title: "Platform"
-    text: "Windows x64"
+    image: /assets/images/outta-space-banner.png
+    text: 3D, Arcade, Survival, Space, Fast-Paced
+  - title: Platform
+    text: Windows x64
 categories:
   - Personal Projects
 tags:
   - Unreal Engine
   - C++
+  - Blueprints
+  - UMG
 ---
+An game where you need to escape a expanding black hole. Dodge asteroids as you try to reach the end goal before the dark hole engulfs you.
+I was responsible for all the asset implementation(Sound, 3D Assets, UI, etc.) and functionality.
 
 <iframe height="175" width="560" src="https://itch.io/embed/3422717?linkback=true&amp;border_width=5&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=ad1ab9&amp;border_color=ad1ab9" frameborder="0">&lt;a href=&quot;<a href="https://kayofways.itch.io/outta-space">Outta&quot; class=&quot;redactor-linkify-object&quot;&gt;https://kayofways.itch.io/outta-space&quot;&gt;Outta</a> Space by KayOfWays, Drnisme, Rheba&lt;/a&gt;</iframe>
 
-# Overview
 [Source Code](https://github.com/kayway/OuttaSpace)
-
-An game where you need to escape a expanding black hole. Dodge asteroids as you try to reach the end goal before the dark hole engulfs you.
-I was responsible for all the asset implementation(Sound, 3D Assets, UI, etc.) and functionality.
 
 # Key Contributions
 - Designed and programmed a custom Pawn movement controller in C++ for responsive, smooth character handling.

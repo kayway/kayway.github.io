@@ -1,13 +1,12 @@
 ---
-title: "Battlekin"
+title: Battlekin
 header:
   teaser: /assets/images/Battlekin.jpg
 classes: wide
-author_profile: false
 sidebar:
   - title: Genre
     image: /assets/images/Battlekin.jpg
-    text: Mobile, Battle
+    text: Mobile, Action
   - title: "Platform"
     text: Mobile, Horizon Worlds
 categories:
@@ -16,11 +15,9 @@ tags:
   - Horizon Worlds
   - Typescript
 ---
+Role - Gameplay Programmer (Coatsink)
 
 <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F61579225115697%2Fvideos%2F750998571071900%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-
-# Overview
-## Role - Gameplay Programmer (Coatsink)
 
 # Key Contributions
 - Implemented tutorial steps guiding players through core mechanics.
@@ -41,4 +38,4 @@ Worked in Horizon Worlds’ scripting environment to support designers and itera
 Ensured tutorial and dialogue flows were reliable and easy to adjust during development.
 
 # Final Thoughts
-Currently working on this project, It has been a challenge dealing with its engine and its clowd based development.
+Working on this project gave some challenges, like dealing with a cloud based editor and working under tight performance constraints.

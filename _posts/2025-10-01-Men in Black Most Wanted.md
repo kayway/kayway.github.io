@@ -1,17 +1,17 @@
 ---
-title: "Men in Black: Most Wanted"
+title: Men in Black: Most Wanted
 classes: wide
 header:
+  teaser: /assets/images/MIB-Most-Wanted.jpg
   video:
     id: 9Z7BhJ8u_Ko
     provider: youtube
-author_profile: false
 sidebar:
-  - title: "Genre"
-    image: "/assets/images/MIB-Most-Wanted.png"
-    text: "VR, Action, First Person"
-  - title: "Platform"
-    text: "Meta Quest 2/3"
+  - title: Genre
+    image: /assets/images/MIB-Most-Wanted.png
+    text: VR, Action, First Person
+  - title: Platform
+    text: Meta Quest 2/3
 categories:
   - Work Projects
 tags:
@@ -20,8 +20,7 @@ tags:
   - VR
 ---
 
-# Overview
-## Role - Gameplay Programmer (Coatsink)
+Role - Gameplay Programmer (Coatsink)
 
 # Key Contributions
 - Implemented systems preventing players from leaning into out-of-bounds areas, resolving major edge-case exploits.

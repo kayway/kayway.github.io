@@ -1,17 +1,18 @@
 ---
-title: "Batman: Arkham Shadow"
+title: Batman: Arkham Shadow
 classes: wide
 header:
+  teaser: /assets/images/BATMAN-ARKHAM-SHADOW-POSTER.jpg
   video:
     id: dadLtfngQH8
     provider: youtube
 author_profile: false
 sidebar:
-  - title: "Genre"
-    image: "/assets/images/BATMAN-ARKHAM-SHADOW-POSTER.png"
-    text: "VR, Action, First Person"
-  - title: "Platform"
-    text: "Meta Quest 3"
+  - title: Genre
+    image: /assets/images/BATMAN-ARKHAM-SHADOW-POSTER.png
+    text: VR, Action, First Person
+  - title: Platform
+    text: Meta Quest 3
 categories:
   - Work Projects
 tags:
@@ -19,9 +20,7 @@ tags:
   - C#
   - VR
 ---
-
-# Overview
-## Role - Gameplay Programmer (Coatsink)
+Role - Gameplay Programmer (Coatsink)
 
 # Key Contributions
 - Implemented multiple cinematics sequences in Unity using Visual Scripting, Timeline, and internal tools.

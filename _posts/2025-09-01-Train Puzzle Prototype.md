@@ -1,13 +1,14 @@
 ---
-title: "Train Prototype"
+title: Train Prototype
 classes: wide
 header:
+  teaser: /assets/images/Train Prototype.jpg
   video:
     id: z9UWbhjXZ4M
     provider: youtube
 author_profile: false
 sidebar:
-    image: "/assets/images/Train Prototype.png"
+    image: /assets/images/Train Prototype.png
 categories:
   - Freelance Projects
 tags:
@@ -17,7 +18,6 @@ tags:
   - Prototyping
 ---
 
-# Overview
 A prototype simulating realistic train physics and a puzzle loop involving moving cargo carts between trains.
 
 # Key Contributions
@@ -26,5 +26,5 @@ A prototype simulating realistic train physics and a puzzle loop involving movin
 - Built puzzle UI for selecting, moving, and placing train carts.
 - Created a track and train system using Unity’s spline tools.
 
-# Additional Features
+# Additional Notes
 The project used simple shapes and placeholders to focus on gameplay and physics accuracy rather than visuals.
