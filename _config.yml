@@ -70,7 +70,7 @@ author:
       url: "https://kayofways.itch.io"
     - label: "Download My CV"
       icon: "fab fa-fw fa-download"
-      url: "{{site.url}}/assets/Documents/Kieran Ryan CV.pdf"
+      url: "{{ site.url }}{{ site.baseurl }}/assets/Documents/Kieran Ryan CV.pdf"
 
 footer:
   links:
