@@ -2,7 +2,7 @@
 title: "Men in Black: Most Wanted"
 classes: wide
 header:
-  teaser: /assets/images/MIB-Most-Wanted.jpg
+  teaser: /assets/images/MIB-Most-Wanted.png
   video:
     id: 9Z7BhJ8u_Ko
     provider: youtube

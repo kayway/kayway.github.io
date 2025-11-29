@@ -2,7 +2,7 @@
 title: Game Launcher
 classes: wide
 header:
-  teaser: /assets/images/GameLauncher.jpg
+  teaser: /assets/images/GameLauncher.png
   video:
     id: YFaJwtFxJoQ
     provider: youtube

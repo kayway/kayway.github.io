@@ -2,7 +2,7 @@
 title: Clown Climber Prototype
 classes: wide
 header:
-  teaser: /assets/images/Clown Climber Prototype.jpg
+  teaser: /assets/images/Clown Climber Prototype.png
   video:
     id: tXo_3X8LavQ
     provider: youtube

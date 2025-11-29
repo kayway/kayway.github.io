@@ -2,7 +2,7 @@
 title: "Batman: Arkham Shadow"
 classes: wide
 header:
-  teaser: /assets/images/BATMAN-ARKHAM-SHADOW-POSTER.jpg
+  teaser: /assets/images/BATMAN-ARKHAM-SHADOW-POSTER.png
   video:
     id: dadLtfngQH8
     provider: youtube

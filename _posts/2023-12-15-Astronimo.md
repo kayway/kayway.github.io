@@ -2,7 +2,7 @@
 title: "Astronimo"
 classes: wide
 header:
-  teaser: /assets/images/BATMAN-ARKHAM-SHADOW-POSTER.jpg
+  teaser: /assets/images/Astronimo.jpg
   video:
     id: J5CabWSzuOc
     provider: youtube

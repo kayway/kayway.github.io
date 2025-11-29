@@ -2,7 +2,7 @@
 title: "Outta Space"
 classes: wide
 header:
-  teaser: /assets/images/outta-space-banner.jpg
+  teaser: /assets/images/outta-space-banner.png
   video:
     id: Nor2QOBQa-Y
     provider: youtube

@@ -2,7 +2,7 @@
 title: Kingdom Hearts-Style Combat Prototype
 classes: wide
 header:
-  teaser: /assets/images/Kingdom Hearts-Style Combat Prototype.jpg
+  teaser: /assets/images/Kingdom Hearts-Style Combat Prototype.png
   video:
     id: u7u7cWItGGc
     provider: youtube

@@ -2,7 +2,7 @@
 title: Combat prototype
 classes: wide
 header:
-  teaser: /assets/images/Combat Prototype.jpg
+  teaser: /assets/images/Combat Prototype.png
   video:
     id: nPmw2owXKeM
     provider: youtube

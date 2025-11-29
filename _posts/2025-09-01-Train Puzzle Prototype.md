@@ -2,7 +2,7 @@
 title: Train Prototype
 classes: wide
 header:
-  teaser: /assets/images/Train Prototype.jpg
+  teaser: /assets/images/Train Prototype.png
   video:
     id: z9UWbhjXZ4M
     provider: youtube
