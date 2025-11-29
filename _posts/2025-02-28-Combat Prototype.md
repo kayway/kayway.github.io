@@ -19,7 +19,6 @@ tags:
   - Prototyping
 ---
 
-# Overview
 A Unity prototype inspired by The Last of Us, focusing on melee combat, targeting, AI encounters, and traversal systems. 
 The client provided 3D animations and assets; I implemented all underlying systems.
 

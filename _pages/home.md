@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Portfolio"
 permalink: /
 header:
   video:

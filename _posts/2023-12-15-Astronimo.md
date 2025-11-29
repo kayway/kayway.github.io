@@ -19,7 +19,8 @@ tags:
   - In-house engine
   - C++
 ---
-Role - Gameplay Programmer (Coatsink)
+
+A fun little big planet like game where my responsibilites were quite varied but gained a lot of engine development experiance.
 
 # Key Contributions
 - Integrated Steam Achievements using the Steamworks API, including event triggering and achievement unlocking logic.

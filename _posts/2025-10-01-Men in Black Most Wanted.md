@@ -20,7 +20,7 @@ tags:
   - VR
 ---
 
-Role - Gameplay Programmer (Coatsink)
+VR Action Puzzle game, where I was mostly responsible for Audio Implementation and Player VR locomotion.
 
 # Key Contributions
 - Implemented systems preventing players from leaning into out-of-bounds areas, resolving major edge-case exploits.

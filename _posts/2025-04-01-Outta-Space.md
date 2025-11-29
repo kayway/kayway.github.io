@@ -21,6 +21,7 @@ tags:
   - Blueprints
   - UMG
 ---
+
 An game where you need to escape a expanding black hole. Dodge asteroids as you try to reach the end goal before the dark hole engulfs you.
 I was responsible for all the asset implementation(Sound, 3D Assets, UI, etc.) and functionality.
 

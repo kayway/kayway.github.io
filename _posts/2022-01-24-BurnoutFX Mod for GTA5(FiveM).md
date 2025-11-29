@@ -15,6 +15,7 @@ toc: true
 toc_label: "Contents"
 toc_sticky: true
 ---
+
 This mod intends to merge the Gameplay of GTA5 with mechanics and systems from other popular racing games like Burnout Paradise.
 This mod interacts with a SQL server and records player statistics and race track data. 
 

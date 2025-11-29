@@ -20,7 +20,8 @@ tags:
   - C#
   - VR
 ---
-Role - Gameplay Programmer (Coatsink)
+
+Action VR game where I most of my responsibilities were the cinematics and VR interactions in cinematics.
 
 # Key Contributions
 - Implemented multiple cinematics sequences in Unity using Visual Scripting, Timeline, and internal tools.
