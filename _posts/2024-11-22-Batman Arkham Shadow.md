@@ -1,5 +1,5 @@
 ---
-title: Batman: Arkham Shadow
+title: "Batman: Arkham Shadow"
 classes: wide
 header:
   teaser: /assets/images/BATMAN-ARKHAM-SHADOW-POSTER.jpg

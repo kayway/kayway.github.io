@@ -1,5 +1,5 @@
 ---
-title: Men in Black: Most Wanted
+title: "Men in Black: Most Wanted"
 classes: wide
 header:
   teaser: /assets/images/MIB-Most-Wanted.jpg
