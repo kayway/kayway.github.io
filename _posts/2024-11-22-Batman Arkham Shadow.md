@@ -46,8 +46,8 @@ This included simplifying trigger systems, improving scripting behaviours, and r
 
 # RPG Town Systems
 {% include video id="8urGxBbP7Ro" provider="youtube" %}
-I contributed features to the game’s open RPG-style hub area, implementing multiple conversation triggers, interaction states, and flow logic. 
-This included proximity-based events, branching interaction logic, and integration with narrative systems.
+I contributed features to the game’s open RPG-style hub area, developing and implementing multiple conversation triggers and flow logic. 
+This included proximity-based events, branching interaction logic.
 
 # Audio Integration
 Handled the implementation and ongoing maintenance of Wwise music events, ensuring correct playback, transitions, looping logic, and sync with cinematic or interactive moments. 
@@ -58,4 +58,4 @@ VR cinematics required careful handling to avoid disorientation.
 I helped design smoother interaction transitions—particularly around scenes where NPCs hand items to the player—ensuring they felt natural in a VR environment without causing clipping or abrupt motion.
 
 # Final Thoughts
-Worked cross-discipline with designers, narrative teams, audio, and producers, acting as a bridge between technical implementation and creative intent. Frequently took ownership of broken workflows or complex scenes, delivering fixes quickly and helping improve the overall cinematic pipeline for the project.
+Worked cross-discipline with designers, narrative teams, audio, and producers, acting as a bridge between technical implementation and creative intent. Frequently took ownership of broken workflows or complex scenes, delivering fixes quickly and helping improve the overall cinematic pipeline for the project. I learned a lot of Unity visual scripting here developing nodes for designers to use and created flowgraphs when designing cinematics.

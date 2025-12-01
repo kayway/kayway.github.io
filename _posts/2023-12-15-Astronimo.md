@@ -21,6 +21,7 @@ tags:
 ---
 
 A fun little big planet like game where my responsibilites were quite varied but gained a lot of engine development experiance.
+{% include video id="0IfS06JlxF8" provider="youtube" %}
 
 # Key Contributions
 - Integrated Steam Achievements using the Steamworks API, including event triggering and achievement unlocking logic.
