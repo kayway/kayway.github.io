@@ -33,7 +33,7 @@ Action VR game where I most of my responsibilities were the cinematics and VR in
 - Collaborated closely with design, narrative, and audio teams to solve cross-discipline implementation issues.
 
 # Cinematics Implementation
-{% include video id="6U05Wpy8FUI" provider="youtube" time="1740"%}
+{% include video id="6U05Wpy8FUI?t=1740" provider="youtube" %}
 
 I was responsible for assembling and implementing cinematics using a combination of Unity Visual Scripting, Timeline, and custom tooling. 
 This included sequencing animations, triggering dialogue, synchronising events, and ensuring transitions worked smoothly in VR. 
