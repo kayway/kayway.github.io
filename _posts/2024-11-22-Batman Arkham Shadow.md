@@ -45,6 +45,7 @@ I built programming solutions to streamline these tasks, improving iteration spe
 This included simplifying trigger systems, improving scripting behaviours, and refactoring logic to be more maintainable.
 
 # RPG Town Systems
+{% include video id="8urGxBbP7Ro" provider="youtube" %}
 I contributed features to the game’s open RPG-style hub area, implementing multiple conversation triggers, interaction states, and flow logic. 
 This included proximity-based events, branching interaction logic, and integration with narrative systems.
 
