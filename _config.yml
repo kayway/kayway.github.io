@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Kieran Ryan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Game Programmer with 3+ years experiance in the industry."
+  bio    : "Game Programmer with 3+ years experience in the industry."
   links:
     - label: "Linkdln"
       icon: "fab fa-brands fa-linkedin"
