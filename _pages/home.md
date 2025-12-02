@@ -1,7 +1,8 @@
 ---
 layout: home
 permalink: /
-video:
-    id: ckpeSogXMb4
-    provider: youtube
+header:
+    video:
+        id: ckpeSogXMb4
+        provider: youtube
 ---
