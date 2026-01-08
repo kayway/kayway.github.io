@@ -15,14 +15,14 @@ sidebar:
   - title: Technologies
     text: C#, Oculus SDK, Tortoise SVN, Unity
   - title: Skills
-    text: VR Development, Locomotion, UI programming, SFX Implementation, VFX Implementation, Localisation
+    text: VR Development, Locomotion, UI Development, SFX Implementation, VFX Implementation, Localisation
 categories:
   - Work Projects
 tags:
   - Unity
   - C#
   - VR Development
-  - UI Programming
+  - UI Development
 ---
 
 VR Action Puzzle game, where I was responsible for a variety of features.
@@ -42,6 +42,7 @@ I also addressed locomotion issues such as getting stuck on slopes or clipping t
 
 # UI/UX
 ![Tutorial Menu](/assets/images/TutorialMenuUI.png)
+
 I created multiple UI screens, including the Tutorial Menu which tracks player progress and writes data into the game’s save system. 
 I also created a Language select screen using Coatsinks in-house localization system.
 
