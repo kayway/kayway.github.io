@@ -6,24 +6,36 @@ header:
   video:
     id: z9UWbhjXZ4M
     provider: youtube
-author_profile: false
 sidebar:
-    image: /assets/images/Train Prototype.png
+  - image: /assets/images/Train Prototype.png
+  - title: Technologies
+    text: C#, Unity
+  - title: Skills
+    text: Physics Development, UI Development
+
 categories:
   - Freelance Projects
 tags:
   - Unity
   - C#
-  - Prototyping
+  - Physics Development
+  - UI Development
 ---
 
-A prototype simulating realistic train physics and a puzzle loop involving moving cargo carts between trains.
+A prototype simulating realistic train physics and a puzzle loop where you need to either take the carrages from the arriving trains or give them certain sequence of carrages.
 
 # Key Contributions
 - Implemented train physics, including movement, coupling, and track following.
 - Designed and implemented the complete puzzle gameplay loop.
-- Built puzzle UI for selecting, moving, and placing train carts.
-- Created a track and train system using Unity’s spline tools.
+- Built puzzle UI For displaying required carrages for the train.
 
-# Additional Notes
-The project used simple shapes and placeholders to focus on gameplay and physics accuracy rather than visuals.
+# Gameplay
+Have a spawn system that waits for the player to fulfil the conditions before despawning and spawning the next train. 
+The UI below shows the requirements for the current train and the next train letting you plan accordingly.
+
+# Physics
+Using Unity rigidbody system and spline system, we would have a train with configurable joints on the end to act as the coupler for the carrages. 
+By pressing A and D you can switch the tracks when near a junction.
+
+# Final Thoughts
+This was a fun little project which allowed me to dabble into some fun train physics calculating the track restrictions and making sure the trains felt like trains.
