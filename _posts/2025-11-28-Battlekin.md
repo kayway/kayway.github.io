@@ -32,7 +32,7 @@ Pokemon-like mobile game in 3D space for Horizon Worlds where I was mostly respo
 - Created dialogue boxes and integrated them into the game's interaction flow.
 - Collaborated with designers to ensure pacing and clarity in tutorial and UI elements.
 
-![Animation montage for combat](/assets/images/BattleKinTutorialExample.gif)
+![Tutorial Sequence example](/assets/images/BattleKinTutorialExample.gif)
 
 # Gameplay Systems
 I implemented step-based tutorial logic to introduce players to the game’s core mechanics. 
