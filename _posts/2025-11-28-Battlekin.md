@@ -7,13 +7,19 @@ sidebar:
   - title: Genre
     image: /assets/images/Battlekin.jpg
     text: Mobile, Action
-  - title: "Platform"
+  - title: Platform
     text: Mobile, Horizon Worlds
+  - title: Technologies
+    text: Typescript, Horizon Worlds Editor, Github
+  - title: Skills
+    text: UI Programming, Mobile Development
 categories:
   - Work Projects
 tags:
   - Horizon Worlds
   - Typescript
+  - UI Programming
+  - Mobile Development
 ---
 
 Pokemon-like mobile game in 3D space for Horizon Worlds where I was mostly responsible for implementing tutorial systems and UI.
@@ -25,6 +31,8 @@ Pokemon-like mobile game in 3D space for Horizon Worlds where I was mostly respo
 - Developed multiple UI overlays supporting gameplay feedback and onboarding.
 - Created dialogue boxes and integrated them into the game's interaction flow.
 - Collaborated with designers to ensure pacing and clarity in tutorial and UI elements.
+
+![Animation montage for combat](/assets/images/BattleKinTutorialExample.gif)
 
 # Gameplay Systems
 I implemented step-based tutorial logic to introduce players to the game’s core mechanics. 
@@ -39,4 +47,5 @@ Worked in Horizon Worlds’ scripting environment to support designers and itera
 Ensured tutorial and dialogue flows were reliable and easy to adjust during development.
 
 # Final Thoughts
-Working on this project gave some challenges, like dealing with a cloud based editor and working under tight performance constraints.
+Working on this project gave some challenges, like dealing with a cloud based editor you would find syncing issues with scripts and would have to be careful when working with others on the same world.
+There was also some tight performance constraints developing for mobile, ensuring code is optimized and has minimal performance impact.
