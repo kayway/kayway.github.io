@@ -12,13 +12,13 @@ sidebar:
   - title: Technologies
     text: Typescript, Horizon Worlds Editor, Github
   - title: Skills
-    text: UI Programming, Mobile Development
+    text: UI Development, Mobile Development
 categories:
   - Work Projects
 tags:
   - Horizon Worlds
   - Typescript
-  - UI Programming
+  - UI Development
   - Mobile Development
 ---
 

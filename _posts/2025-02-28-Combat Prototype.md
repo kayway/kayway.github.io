@@ -14,7 +14,7 @@ categories:
 tags:
   - Unity
   - C#
-  - AI
+  - AI Development
   - Combat
   - Prototyping
 ---

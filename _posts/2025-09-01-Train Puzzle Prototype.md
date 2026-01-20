@@ -11,7 +11,7 @@ sidebar:
   - title: Technologies
     text: C#, Unity
   - title: Skills
-    text: Physics Development, UI Development
+    text: Physics Development, UI Development, Prototyping
 
 categories:
   - Freelance Projects
