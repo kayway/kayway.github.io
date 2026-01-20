@@ -11,7 +11,7 @@ sidebar:
   - title: Technologies
     text: C#, Unity, Emerald AI, RPG Combat Framework
   - title: Skills
-    text: AI Development, Framework Integration
+    text: AI Development, Systems Integration, Prototyping
 categories:
   - Freelance Projects
 tags:

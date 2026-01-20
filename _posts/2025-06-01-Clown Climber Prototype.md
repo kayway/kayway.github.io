@@ -9,9 +9,9 @@ header:
 sidebar:
     - image: /assets/images/Clown Climber Prototype.png
     - title: Technologies
-      text: C#, Unity
+      text: C#, Unity, Reactive AI, Climbing Framework
     - title: Skills
-      text: AI Development, Prototyping, Gameplay Development, Systems Integration
+      text: AI Development, Prototyping, Systems Integration, Prototyping
 categories:
   - Freelance Projects
 tags:
@@ -19,6 +19,7 @@ tags:
   - C#
   - AI Development
   - Prototyping
+  - Systems Integration
 ---
 
 A quirky stealth-climbing prototype involving climbing systems, enemy AI, and comedic abilities like pies, banana peels, and whoopie cushions.
@@ -33,6 +34,7 @@ Using the Reactive AI package provided by the client, I had to understand and de
 The AI had several states:
 - Patrol/Idle: Would patrol around a set of points you place in the level.
 - Pursuit: When the player is spotted would chase the player. If they lose sight will chase to the last seen location
+- Attack: Where the enemy aims their gun at the player and waits a set time before killing the player.
 - Cautious: Would look arounfd for a little while looking for the player.
 - Laughing/Slipping: A "doormant" state where we handel when the AI should not be able to act. For example, when they see the player slip or throw a pie at another enemy they will be in this state for a set time.
 
