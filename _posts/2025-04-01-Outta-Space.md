@@ -13,13 +13,17 @@ sidebar:
     text: 3D, Arcade, Survival, Space, Fast-Paced
   - title: Platform
     text: Windows x64
+  - title: Technologies
+    text: C#, Unity
+  - title: Skills
+    text: Tool Development
 categories:
   - Personal Projects
 tags:
   - Unreal Engine
   - C++
-  - Blueprints
-  - UMG
+  - Blueprint
+  - UI Development
 ---
 
 An game where you need to escape a expanding black hole. Dodge asteroids as you try to reach the end goal before the dark hole engulfs you.
@@ -31,30 +35,85 @@ I was responsible for all the asset implementation(Sound, 3D Assets, UI, etc.) a
 
 # Key Contributions
 - Designed and programmed a custom Pawn movement controller in C++ for responsive, smooth character handling.
-- Built a dynamic expanding black hole volume that grows over time and influences gameplay tension.
+- implementeed a time-pressure system that gets closer to the player, accelerating over time (black hole).
+- Implemented gameplay features like player state handling, item pickups health system etc.
 - Implemented all the UI systems(Player HUD, Dialogue UI, Options Screen, etc.)
 - Implemented Settings with save functionality.
 - Perforce Server setup and maintenence.
 
-# Gameplay Systems
-I created a lightweight custom Pawn controller in C++ to focus on responsiveness and clean separation between input, movement logic, and animation triggers. 
-The signature mechanic is a dynamically expanding black hole volume that increases tension as the player progresses, implemented through scalable collision logic and timed growth.
+# Player Controller
+I created a custom Pawn controller in C++, with some funny rotation where the planet faces towards your input.
+We always move forwards and we increase speed overtime, with movement limited to Up/Down Left/Right, with the camera bounds as its movement limits.
 
-# UI/UX
-The UI was built entirely using UMG, including the HUD for tracking health, objective progress, and black hole proximity. 
-I also implemented pause and game-over flows, along with a simple dialogue system triggered by gameplay events. 
-The Options Menu uses a persistent save slot so player settings carry over across sessions.
+I realized that because physics is resolved by the movement component and the component sweeps only when it registers movement.
+Therefor we need to call AddMovementInput to simulate physics, as we cant enable "Simulate Physics" option on the capsule component.
 
-# Audio Integration
-Although I didn’t create the assets, I handled all audio implementation, wiring sound effects and music into gameplay and UI events. 
-This helped reinforce feedback and improve the moment-to-moment clarity.
+```c++
+void APlanetController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+	if (IsDead)
+	{
+		return;
+	}
 
-# Development Infastructure
-To support collaboration, I set up and maintained a Perforce server for the project, including depot structure, user permissions, and workspace mappings. This allowed the team to iterate smoothly even under the 1-week time limit.
+	//We add a bit of movement input to resolve  physics as pawns cannot have simulate physics enabled.
+	AddMovementInput(FVector::ForwardVector, 0.01f, true);
+	
+	if (HasTeleported)
+	{
+		auto Location = GetActorLocation();
+		SpawnLocation = FVector2D(Location.Y, Location.Z);
+		MovementComponent->Velocity = FVector::ZeroVector;
+	}
+	auto CurrentLocation = GetActorLocation();
+	
+	auto Max = SpawnLocation + MaxExtents;
+	auto Min = SpawnLocation - MaxExtents;
+	auto ClampedY = FMath::Clamp(CurrentLocation.Y, Min.X, Max.X);
+	auto ClampedZ = FMath::Clamp(CurrentLocation.Z, Min.Y, Max.Y);
 
-# Development Decisions
-Given the tight timeline, I made the choice to implement UI behaviour and input handling in C++ for faster iteration and predictable logic flow. 
-This allowed me to focus on building a stable, functional core rather than polishing visuals.
+	ForwardSpeed = FMath::Clamp(ForwardSpeed + ForwardAcceleration * DeltaTime,
+		InitialSpeed,
+		ForwardMaxSpeed);
+
+	SetActorLocation(FVector(CurrentLocation.X + ForwardSpeed, ClampedY, ClampedZ));
+
+	auto Velocity = MovementComponent->Velocity;
+	auto NewRotation = Velocity.ToOrientationRotator();
+
+	NewRotation.Yaw = GetActorRotation().Yaw + SpinSpeed * DeltaTime;
+
+	SetActorRotation(NewRotation);
+}
+```
+
+I needed to have the camera seperate from the player so it coan move frealy with it attempting to follow them. We only want to follow the planet on one axis but we can retain the rest.
+
+```c++
+void APlayerCamera::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (TargetPawn == nullptr)
+	{
+		return;
+	}
+
+	auto ActorLocation = GetActorLocation();
+	auto PlanetControllerLocation = TargetPawn->GetActorLocation();
+	auto TargetLocation = FVector(PlanetControllerLocation.X, ActorLocation.Y, ActorLocation.Z);
+	SetActorLocation(TargetLocation);
+}
+```
+# Black Hole System
+![Black Hole BP](/assets/images/OuttaSpace-BlackHole.png)
+Implemented a time-pressure system that gets closer to the player, accelerating over time. If it touches the player the game is over. 
+It can be temporarilly slowed by picking up the hourglasses.
+
+The UI bar at the bottom tracks the black hole, player and the end goal.
+![Progress Tracker](OuttaSpace-ProgressTracker.png)
 
 # Final Thoughts
-This prototype helped strengthen my rapid prototyping workflow in Unreal, especially around movement systems, UI pipelines, and state handling. It reinforced the value of modular design under time pressure, and gave me practical experience building a small but complete gameplay loop end-to-end.
+This was a fun jam to work on, and where i learn t the most abaut using perforce with unreal and sharing the project with non-programmer collaberators.
