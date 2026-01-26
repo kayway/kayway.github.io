@@ -35,18 +35,19 @@ I was responsible for all the asset implementation(Sound, 3D Assets, UI, etc.) a
 
 # Key Contributions
 - Designed and programmed a custom Pawn movement controller in C++ for responsive, smooth character handling.
-- implementeed a time-pressure system that gets closer to the player, accelerating over time (black hole).
+- implemented a time-pressure system that gets closer to the player, accelerating over time (black hole).
 - Implemented gameplay features like player state handling, item pickups health system etc.
 - Implemented all the UI systems(Player HUD, Dialogue UI, Options Screen, etc.)
 - Implemented Settings with save functionality.
-- Perforce Server setup and maintenence.
+- Perforce Server setup and maintenance.
+- Implemented all Sound and VFX events.
 
 # Player Controller
 I created a custom Pawn controller in C++, with some funny rotation where the planet faces towards your input.
 We always move forwards and we increase speed overtime, with movement limited to Up/Down Left/Right, with the camera bounds as its movement limits.
 
-I realized that because physics is resolved by the movement component and the component sweeps only when it registers movement.
-Therefor we need to call AddMovementInput to simulate physics, as we cant enable "Simulate Physics" option on the capsule component.
+I realized that the physics that are handled by the movement component sweeps only when it registers movement.
+Therefor we need to call AddMovementInput to simulate physics, as we can't enable "Simulate Physics" option on the capsule component.
 
 ```c++
 void APlanetController::Tick(float DeltaTime)
@@ -89,7 +90,8 @@ void APlanetController::Tick(float DeltaTime)
 }
 ```
 
-I needed to have the camera seperate from the player so it coan move frealy with it attempting to follow them. We only want to follow the planet on one axis but we can retain the rest.
+I needed to have the camera separate from the player so I can implement more custom following logic easier. 
+We only want to follow the planet on one axis but we can retain the rest.
 
 ```c++
 void APlayerCamera::Tick(float DeltaTime)
@@ -108,12 +110,13 @@ void APlayerCamera::Tick(float DeltaTime)
 }
 ```
 # Black Hole System
-![Black Hole BP](/assets/images/OuttaSpace-BlackHole.png)
+![Black Hole BP](/assets/images/OuttaSpace-BlackHoleBP.png)
 Implemented a time-pressure system that gets closer to the player, accelerating over time. If it touches the player the game is over. 
-It can be temporarilly slowed by picking up the hourglasses.
+It can be temporarily slowed by picking up the hourglasses.
 
 The UI bar at the bottom tracks the black hole, player and the end goal.
-![Progress Tracker](OuttaSpace-ProgressTracker.png)
+![Progress Tracker](/assets/images/OuttaSpace-ProgressTracker.png)
 
 # Final Thoughts
-This was a fun jam to work on, and where i learn t the most abaut using perforce with unreal and sharing the project with non-programmer collaberators.
+This was a fun jam to work on, where I learn't the most about using perforce with unreal and sharing the project with non-programmer collaborators.
+Things like sharing binaries, how to share plugins, etc.
