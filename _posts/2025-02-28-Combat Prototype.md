@@ -7,14 +7,18 @@ header:
     id: nPmw2owXKeM
     provider: youtube
 sidebar:
-    image: /assets/images/Combat Prototype.png
+    - image: /assets/images/Combat Prototype.png
+    - title: Technologies
+      text: C#, Unity, Cinemachine
+    - title: Skills
+      text: AI Development, Prototyping, Animation System Integration, Combat System Development
 categories:
   - Freelance Projects
 tags:
   - Unity
   - C#
   - AI Development
-  - Combat
+  - Combat System Development
   - Prototyping
 ---
 
@@ -53,7 +57,7 @@ The implementation here is a bit incomplete as it was later requested by the cli
 ![Old Movement System](/assets/images/CombatPrototype-Old_Style_Movement.gif)
 
 You would need to click move then It would create a path using unity line renderer system to show where the player would move.
-It would also change color depending whether the player will be detected by an enemy(red) or won't(blue).
+It would also change color depending whether the player will be detected by an enemy(red) or won't(green).
 
 # Final Thoughts
 The client had changed his mind on some features later in the project I had to modify some core gameplay elements and adapt the prototype. 

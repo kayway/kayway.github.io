@@ -19,7 +19,7 @@ tags:
   - Unreal Engine
   - C++
   - Blueprints
-  - Combat
+  - Combat System Development
 ---
 
 A 3D Action Combat game where you have to defeat all the enemies or collect all the pumpkins in the level. 
