@@ -18,7 +18,7 @@ categories:
 tags:
   - Unity
   - C#
-  - VR
+  - VR Development
   - Visual Scripting
 ---
 
