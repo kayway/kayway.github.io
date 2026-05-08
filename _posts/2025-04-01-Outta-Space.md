@@ -14,7 +14,7 @@ sidebar:
   - title: Platform
     text: Windows x64
   - title: Technologies
-    text: C#, Unity
+    text: C++, Unreal Engine, Perforce
   - title: Skills
     text: Tool Development
 categories:
