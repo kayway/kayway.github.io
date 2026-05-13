@@ -25,7 +25,6 @@ tags:
   - Blueprint
   - UI Development
   - AI Development
-toc: true
 ---
 
 A carnival horror game where you need to play carnival games to get tickets and feed the flesh walls to progress.
