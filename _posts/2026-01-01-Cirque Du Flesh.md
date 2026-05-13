@@ -4,7 +4,7 @@ classes: wide
 header:
   teaser: /assets/images/cirque-du-flesh-banner.png
   video:
-    id: Nor2QOBQa-Y
+    id: g-BJVqXupLM
     provider: youtube
 author_profile: false
 sidebar:
@@ -42,7 +42,7 @@ A carnival horror game where you need to play carnival games to get tickets and 
 - Integrated multidisciplinary assets (audio, UI, 2D art) into Unreal Engine, ensuring cohesive gameplay functionality.
 
 # AI System
-Created a AI system for enemy AI, with chase and combat mechanics, using Unreal behavior trees. 
+Created a AI system for enemy AI, with chase and combat mechanics, using Unreal behaviour trees. 
 Its setup in a way that once the player has been spotted they will always pursue the player.
 To do this I implemented the following:
 - Custom decorator for float-based decision thresholds.
@@ -57,6 +57,7 @@ This tree manages 4 states:
 - Dead: prevent any actions.
 
 ## Stagger BTTask
+![Enemy Stagger](/assets/images/CirqueDuFlesh-Stagger.gif)
 A custom BTTask was implemented to handle stagger responses and temporary interruption of AI behaviour.
 When triggered, the task applies a directional pushback to the enemy and enters a timed state where actions are disabled. The task only completes once the timer elapses, ensuring the AI remains in the stagger state for the full duration.
 
@@ -74,7 +75,7 @@ Implemented a first-person player controller handling interaction, input state, 
 
 ## Interaction System
 Designed a flexible interaction system to detect and interact with objects in front of the player. The system performs a forward sphere trace each frame to identify valid interactables within range.
-To support extensibility, interactions are handled via an interface, allowing both actors and components to define custom interaction behavior without tight coupling to the player controller.
+To support extensibility, interactions are handled via an interface, allowing both actors and components to define custom interaction behaviour without tight coupling to the player controller.
 When a valid intractable is detected, it is cached as the current target. During dialogue interactions, updates are paused to prevent conflicting input and ensure consistent state handling.
 
 ```c++
@@ -164,8 +165,9 @@ void APlayerCharacter::Tick(float DeltaTime)
 # Save System
 Implemented a lightweight save system using Unreal’s SaveGame framework to persist player state across sessions.
 Game data such as player progress and key variables are stored in a custom save object and managed through the Game Instance, providing a centralized access point for saving and loading.
-The system is triggered at key gameplay events, ensuring important state is preserved without requiring constant writes.
+The system is triggered when speaking to zoltan, ensuring important state is preserved without requiring constant writes.
 
+![Zoltan](/assets/images/CirqueDuFlesh-Stagger.gif)
 # Dialogue System
 Implemented a modular dialogue system using a custom component that can be attached to any actor. 
 The system integrates with the interaction framework, allowing dialogue to be triggered consistently across different gameplay elements.
