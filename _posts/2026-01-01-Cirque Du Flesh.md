@@ -6,7 +6,7 @@ header:
   video:
     id: g-BJVqXupLM
     provider: youtube
-author_profile: false
+
 sidebar:
   - title: "Genre"
     image: /assets/images/cirque-du-flesh-banner.png
@@ -26,7 +26,6 @@ tags:
   - UI Development
   - AI Development
 toc: true
-toc_label: "Contents"
 toc_sticky: true
 ---
 
@@ -167,7 +166,7 @@ Implemented a lightweight save system using Unreal’s SaveGame framework to per
 Game data such as player progress and key variables are stored in a custom save object and managed through the Game Instance, providing a centralized access point for saving and loading.
 The system is triggered when speaking to zoltan, ensuring important state is preserved without requiring constant writes.
 
-![Zoltan](/assets/images/CirqueDuFlesh-Stagger.gif)
+![Zoltan](/assets/images/CirqueDuFlesh-Zoltan.gif)
 # Dialogue System
 Implemented a modular dialogue system using a custom component that can be attached to any actor. 
 The system integrates with the interaction framework, allowing dialogue to be triggered consistently across different gameplay elements.
