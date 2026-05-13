@@ -26,7 +26,6 @@ tags:
   - UI Development
   - AI Development
 toc: true
-toc_sticky: true
 ---
 
 A carnival horror game where you need to play carnival games to get tickets and feed the flesh walls to progress.
@@ -233,6 +232,8 @@ void UDialogueLine::PlayLine()
 }
 ```
 # Inventory System
+![Enemy Stagger](/assets/images/CirqueDuFlesh-Inventory.gif)
+
 Implemented a data-driven inventory system using Unreal Engine’s UI framework, separating. Inventory items are represented as data objects, which are fed into a TileView to dynamically generate UI entries. 
 This allows the interface to update automatically as the inventory changes, without tightly coupling UI logic to gameplay systems.
 The system uses entry widgets to represent individual items, enabling consistent rendering and interaction handling for each inventory slot.
