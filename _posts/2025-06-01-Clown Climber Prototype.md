@@ -11,7 +11,7 @@ sidebar:
     - title: Technologies
       text: C#, Unity, Reactive AI, Climbing Framework
     - title: Skills
-      text: AI Development, Prototyping, Systems Integration, Prototyping
+      text: AI Development, Prototyping, Systems Integration
 categories:
   - Freelance Projects
 tags:
