@@ -40,6 +40,7 @@ A carnival horror game where you need to play carnival games to get tickets and 
 
 # AI System
 Created a AI system for enemy AI, with chase and combat mechanics, using Unreal behaviour trees. 
+
 Its setup in a way that once the player has been spotted they will always pursue the player.
 To do this I implemented the following:
 - Custom decorator for float-based decision thresholds.
@@ -71,9 +72,8 @@ Implemented a first-person player controller handling interaction, input state, 
 - Gun shooting and melee combat
 
 ## Interaction System
-Designed a flexible interaction system to detect and interact with objects in front of the player. The system performs a forward sphere trace each frame to identify valid interactables within range.
-To support extensibility, interactions are handled via an interface, allowing both actors and components to define custom interaction behaviour without tight coupling to the player controller.
-When a valid intractable is detected, it is cached as the current target. During dialogue interactions, updates are paused to prevent conflicting input and ensure consistent state handling.
+Designed a flexible interaction system to detect and interact with objects in front of the player. 
+The system performs a forward sphere trace each frame to identify valid interactables within range.
 
 ```c++
 void APlayerCharacter::Tick(float DeltaTime)
@@ -120,8 +120,13 @@ void APlayerCharacter::Tick(float DeltaTime)
 }
 ```
 
+To support extensibility, interactions are handled via an interface, allowing both actors and components to define custom interaction behaviour without tight coupling to the player controller.
+When a valid intractable is detected, it is cached as the current target. 
+During dialogue interactions, updates are paused to prevent conflicting input and ensure consistent state handling.
+
 # Save System
 Implemented a lightweight save system using Unreal’s SaveGame framework to persist player state across sessions.
+
 Game data such as player progress and key variables are stored in a custom save object and managed through the Game Instance, providing a centralized access point for saving and loading.
 The system is triggered when speaking to zoltan, ensuring important state is preserved without requiring constant writes.
 
@@ -149,6 +154,7 @@ void UDialogueLine::PlayDialogue(UTextBlock* DialogueTextObject, UAudioComponent
 ```
 
 Dialogue lines are sequenced using a timer-based system, allowing each line to display for its defined duration without blocking gameplay.
+
 ```c++
 void UDialogueLine::PlayLine()
 {
@@ -172,9 +178,11 @@ void UDialogueLine::PlayLine()
 }
 ```
 # Inventory System
-![Inventory UI](/assets/images/CirqueDuFlesh-Inventory.gif)
 
 Implemented a data-driven inventory system using Unreal Engine’s TileView framework.
+
+![Inventory UI](/assets/images/CirqueDuFlesh-Inventory.gif)
+
 Inventory items are represented as data objects which dynamically generate UI entries, separating gameplay data from presentation logic and allowing the interface to update automatically as inventory contents change.
 This approach keeps the system scalable and makes it easy to extend item types or modify UI behaviour without restructuring the underlying gameplay systems.
 
