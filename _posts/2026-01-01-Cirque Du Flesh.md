@@ -78,84 +78,45 @@ When a valid intractable is detected, it is cached as the current target. During
 ```c++
 void APlayerCharacter::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);	
+    Super::Tick(DeltaTime);
 
-	if (InConversation)
-	{
-		return;
-	}
+    if (InConversation)
+    {
+        return;
+    }
 
-	UWorld* World = GetWorld();
-	if (!World)
-	{
-		return;
-	}
+    FCollisionShape Sphere = FCollisionShape::MakeSphere(50.f);
 
-	float Radius = 50.f;
-	FCollisionShape Sphere = FCollisionShape::MakeSphere(Radius);
-	FCollisionQueryParams Params;
-	Params.AddIgnoredActor(this);
+    TArray<FHitResult> Hits;
 
-	FVector Start = GetLOSStartPosition();
-	FVector End = GetLOSEndPosition(InteractionRadius);
-	TArray<FHitResult> Hits;
+    bool bHit = GetWorld()->SweepMultiByChannel(
+        Hits,
+        GetLOSStartPosition(),
+        GetLOSEndPosition(InteractionRadius),
+        FQuat::Identity,
+        ECC_Visibility,
+        Sphere
+    );
 
-	bool bHit = World->SweepMultiByChannel(
-		Hits,
-		Start,
-		End,
-		FQuat::Identity,
-		ECC_Visibility,
-		Sphere,
-		Params
-	);
+    InteractionTarget = nullptr;
 
-	InteractionTarget = nullptr;
+    if (!bHit)
+    {
+        return;
+    }
 
-	FVector ImpactPoint = FVector::Zero();
-	if (bHit)
-	{
-		for (FHitResult Hit : Hits)
-		{
-			AActor* HitActor = Hit.GetActor();
-			if (HitActor->Implements<UInteractionInterface>())
-			{
-				if (IInteractionInterface::Execute_CanInteract(HitActor))
-				{
-					ImpactPoint = Hit.ImpactPoint;
-					InteractionTarget = HitActor;
-					break;
-				}
-			}
-			else
-			{
-				HitActor->GetComponentsByInterface(UInteractionInterface::StaticClass());
-				for (UActorComponent* Component : HitActor->GetComponentsByInterface(UInteractionInterface::StaticClass()))
-				{
-					if (IInteractionInterface::Execute_CanInteract(Component))
-					{
-						ImpactPoint = Hit.ImpactPoint;
-						InteractionTarget = Component;
-						break;
-					}
-				}
+    for (const FHitResult& Hit : Hits)
+    {
+        AActor* HitActor = Hit.GetActor();
 
-				if (InteractionTarget)
-				{
-					break;
-				}
-			}
-		}
-	}
-
-	if (DebugInteraction)
-	{
-		// Debug draw
-		FColor Color = InteractionTarget ? FColor::Red : FColor::Green;
-
-		DrawDebugLine(World, Start, End, Color, false, 1.f, 0, 1.f);
-		DrawDebugSphere(World, InteractionTarget ? ImpactPoint : End, Radius, 16, Color, false);
-	}
+        if (HitActor &&
+            HitActor->Implements<UInteractionInterface>() &&
+            IInteractionInterface::Execute_CanInteract(HitActor))
+        {
+            InteractionTarget = HitActor;
+            break;
+        }
+    }
 }
 ```
 
@@ -179,25 +140,6 @@ Dialogue playback is initialised by setting the audio source and triggering the 
 ```c++
 void UDialogueLine::PlayDialogue(UTextBlock* DialogueTextObject, UAudioComponent* DialogueSpeaker)
 {
-	UE_LOG(DialogueLine, Log, TEXT("Playing dialogue line %s..."), *GetName());
-	if (!DialogueTextObject)
-	{
-		UE_LOG(DialogueLine, Error, TEXT("No text object for subtitles found!"));
-		return;
-	}
-
-	if (!VoiceLine)
-	{
-		UE_LOG(DialogueLine, Error, TEXT("No valid voice line found!"));
-		return;
-	}
-
-	if (!DialogueSpeaker)
-	{
-		UE_LOG(DialogueLine, Error, TEXT("No valid speaker found!"));
-		return;
-	}
-
 	TextObject = DialogueTextObject;
 
 	DialogueSpeaker->SetSound(VoiceLine);
@@ -212,7 +154,6 @@ void UDialogueLine::PlayLine()
 {
 	if(lineIdx >= Lines.Num())
 	{
-		UE_LOG(DialogueLine, Log, TEXT("Finished playing dialogue line %s."), *GetName());
 		OnFinishedDialogue.Broadcast();
 		return;
 	}
@@ -231,14 +172,11 @@ void UDialogueLine::PlayLine()
 }
 ```
 # Inventory System
-![Enemy Stagger](/assets/images/CirqueDuFlesh-Inventory.gif)
+![Inventory UI](/assets/images/CirqueDuFlesh-Inventory.gif)
 
-Implemented a data-driven inventory system using Unreal Engine’s UI framework, separating. Inventory items are represented as data objects, which are fed into a TileView to dynamically generate UI entries. 
-This allows the interface to update automatically as the inventory changes, without tightly coupling UI logic to gameplay systems.
-The system uses entry widgets to represent individual items, enabling consistent rendering and interaction handling for each inventory slot.
-
-This approach supports scalability, making it easy to add new item types or modify the UI without restructuring the underlying system.
-Decoupling inventory data from UI ensures the system remains flexible and maintainable, while leveraging Unreal’s list-based UI allows efficient rendering and updating of inventory elements.
+Implemented a data-driven inventory system using Unreal Engine’s TileView framework.
+Inventory items are represented as data objects which dynamically generate UI entries, separating gameplay data from presentation logic and allowing the interface to update automatically as inventory contents change.
+This approach keeps the system scalable and makes it easy to extend item types or modify UI behaviour without restructuring the underlying gameplay systems.
 
 # Final Thoughts
 Had a lot more fun with this one as there was a lot of different gameplay systems and features. 

@@ -20,6 +20,7 @@ tags:
   - AI Development
   - Prototyping
   - Systems Integration
+toc: true
 ---
 
 A quirky stealth-climbing prototype involving climbing systems, enemy AI, and comedic abilities like pies, banana peels, and whoopie cushions.
