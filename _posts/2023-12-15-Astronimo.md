@@ -36,7 +36,7 @@ Implemented the full Steam Achievements pipeline, wiring gameplay events to achi
 This included handling callbacks, validating logic flow, and ensuring correct achievement states across sessions.
 
 # Debugging Tools & Memory Work
-Built internal tools for identifying memory leaks and improving debugging workflows. 
+Built internal tools to automatically reproduce repro steps, allowing the ability to custyamize the automated actions and the speed at which they are performed. 
 This involved working at a lower level within the in-house engine to track allocations, log behaviour, and expose debugging data for the dev team.
 
 # UI Systems
